@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+.container-box {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 1rem;
+}
+
+.chart-select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+select {
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+/* .bar {
+    width: 15%;
+} */
+
+/* .doughnut, .bar, .pie, .line, .polarArea {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+} */
+
+.chart-display {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+}
+
+#doughnutChart, #pieChart, #polarAreaChart {
+    width: 60%;
+    margin: 0 auto;
+}
